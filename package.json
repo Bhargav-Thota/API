@@ -1,0 +1,22 @@
+{
+  "name": "gyan_grove_api",
+  "version": "1.0.0",
+  "description": "RESTful service that manages and queries event data basedon a user's geographical location and a specified date.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Thota Bhargav",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3"
+  }
+}
